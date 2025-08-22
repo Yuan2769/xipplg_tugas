@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Profil SMK Igasar Pindad Bandung</title>
+  <style>
+    * { box-sizing: border-box; }
+    body{
+      font-family: "Times New Roman", Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+    }
+    .page {
+      max-width: 900px;
+      margin: 12px auto;
+      border: 2px solid #000;
+      padding: 18px 12px 32px;
+    }
+    h1{
+      text-align:center;
+      margin: 0 0 16px;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+    .video-wrap{
+      display:flex;
+      justify-content:center;
+      margin: 10px 0 24px;
+    }
+    .video{
+      width: 720px;        
+      aspect-ratio: 16 / 9;
+      border: 2px solid #000;
+    }
+    
+    .card{
+      width: 520px;
+      margin: 0 auto;
+      border: 2px solid #000;
+      padding: 6px;
+    }
+    .card h2{
+      margin: 0 0 8px;
+      font-size: 42px;
+      font-weight: 700;
+      text-align: left;
+      border: 2px solid #000;
+      padding: 4px 10px;
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    td, th{
+      border: 2px solid #000;
+      padding: 8px 10px;
+      vertical-align: middle;
+    }
+    .logo{
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      display:block;
+      margin: 6px;
+    }
+    .label { width: 30%; font-weight: 700; }
+    .colon { width: 5%; text-align: center; font-weight: 700; }
+    .value { width: 65%; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Video Profil SMK Igasar Pindad Bandung</h1>
+
+    <div class="video-wrap">
+      
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/rHSuEhqo2LE"
+        title="Company Profile SMK Igasar Pindad Bandung"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="card">
+      <h2>Identitas Siswa</h2>
+      <table>
+        <tr>
+          <td rowspan="2" style="width:110px; text-align:center;">
+            
+            <img src="smkigasare.png" alt="Logo SMK" class="logo">
+          </td>
+          <td class="label">Nama</td>
+          <td class="colon">:</td>
+          <td class="value">Yuwanda Chasna</td>
+        </tr>
+        <tr>
+          <td class="label">Kelas</td>
+          <td class="colon">:</td>
+          <td class="value">XI-PPLG</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
