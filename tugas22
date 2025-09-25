@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Pendaftaran</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      margin: 40px;
+    }
+    .container {
+      border: 1px solid #000;
+      padding: 20px;
+      width: 600px;
+      margin: auto;
+    }
+    h2, h3 {
+      text-align: center;
+      margin: 5px 0;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    .form-section {
+      margin-top: 15px;
+    }
+    .form-section p {
+      margin: 5px 0;
+    }
+    input[type="text"] {
+      border: none;
+      border-bottom: 1px dotted #000;
+      width: 70%;
+    }
+    .right {
+      float: right;
+      text-align: center;
+    }
+    .signature {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .signature div {
+      text-align: center;
+      width: 45%;
+    }
+    .photo {
+      border: 1px solid #000;
+      width: 100px;
+      height: 120px;
+      float: right;
+      text-align: center;
+      margin-top: -80px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="text-align:center;">
+      <div style="width:50px;height:50px;border:1px solid #000;border-radius:50%;display:inline-block;"></div>
+    </div>
+
+    <h2>FORMULIR PENDAFTARAN</h2>
+    <h3>CALON SISWA/SISWI MTs. .......................</h3>
+    <h3>TAHUN PELAJARAN 2016/2017</h3>
+
+    <p class="subtitle">
+      Sekretariat : Jln. .......................... Kode Pos .... <br>
+      Email : ...............@yahoo.co.id <br>
+      Website : http://.....................
+    </p>
+
+    <div class="photo">Pas Foto<br>3x4</div>
+
+   
+    <div class="form-section">
+      <b>A. DATA PRIBADI CALON SISWA</b>
+      <p>1. Nama Lengkap : <input type="text"></p>
+      <p>2. Tempat Tgl Lahir : <input type="text"></p>
+      <p>3. Jenis Kelamin : <input type="text"></p>
+      <p>4. Agama : <input type="text"></p>
+      <p>5. Anak ke : <input type="text"></p>
+    </div>
+
+    
+    <div class="form-section">
+      <b>B. DATA ORANG TUA/WALI CALON SISWA</b>
+      <p>1. Nama Ayah : <input type="text"></p>
+      <p>2. Pekerjaan Ayah : <input type="text"></p>
+      <p>3. Nama Ibu : <input type="text"></p>
+      <p>4. Pekerjaan Ibu : <input type="text"></p>
+      <p>5. Alamat : <input type="text" style="width:80%;"></p>
+      <p>6. No. Telp/HP : <input type="text"></p>
+      <p>7. Nama Wali : <input type="text"></p>
+      <p>8. Pekerjaan Wali : <input type="text"></p>
+      <p>9. Alamat : <input type="text" style="width:80%;"></p>
+      <p>10. No. Telp/HP : <input type="text"></p>
+    </div>
+
+    
+    <div class="form-section">
+      <b>C. ASAL SEKOLAH</b>
+      <p>1. Nama Sekolah : <input type="text"></p>
+      <p>2. Alamat Sekolah : <input type="text" style="width:80%;"></p>
+      <p>3. No. Induk Siswa : <input type="text"></p>
+    </div>
+
+    
+    <div class="form-section">
+      <b>D. DATA KELULUSAN</b>
+      <p>1. Nomor Peserta UN : <input type="text"></p>
+      <p>2. Nilai Rata-rata UN : <input type="text"></p>
+    </div>
+
+    <p style="text-align:right;margin-top:20px;">
+      ........................., ................ 2016
+    </p>
+
+    <div class="signature">
+      <div>
+        Mengetahui/Menyetujui <br>
+        Orangtua/Wali Calon Siswa <br><br><br><br><br>
+        (.......................)
+      </div>
+      <div>
+        Calon Siswa <br><br><br><br><br>
+        (.......................)
+      </div>
+    </div>
+  </div>
+</body>
+</html>
